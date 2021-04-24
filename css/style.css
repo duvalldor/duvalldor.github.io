@@ -1,6 +1,12 @@
 /* Fonts from Google Fonts - more at https://fonts.google.com */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
+.page-main{
+    margin: 0;
+    padding: 0;
+    box-shadow:rgb(34, 34, 34);
+    border-radius: 2px;
+}
 header{
     display: flex;
     background: #885A89;
@@ -11,8 +17,12 @@ h1, h2 {
     font-family: "Reggae One", sans-serif;
     font-size: 45px;
   }
-.headshot{
+img{
     width: 150px;
+    float: right;
+    box-shadow: 0px 0px 5px 5px #888;
+    border-radius: 5px;
+
 }
 
 body {
