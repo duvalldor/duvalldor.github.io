@@ -1,17 +1,22 @@
 /* Fonts from Google Fonts - more at https://fonts.google.com */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
-
-h1 {
+header{
+    display: flex;
+    background: #885A89;
+    margin:auto;
+    padding:2%;
+}
+h1, h2 {
     font-family: "Reggae One", sans-serif;
     font-size: 45px;
   }
-img{
+.headshot{
     width: 250px;
-    
 }
 
 body {
-    font-size: 20px;
-
+    background-color: #8AA8A1;
+    font-family: "ReggaeOne";
+    font-size: 35px;
 }
