@@ -27,12 +27,12 @@ img{
     border-radius: 5px;
 }
 a[href]:hover{
-    color: darkblue;
-    background-color: orange;
+    color: hotpink;
     text-decoration: none;
 }
 a[href]{
     color: darkblue;
+    font-weight:bold;
     
 }
 body {
