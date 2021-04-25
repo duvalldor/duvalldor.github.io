@@ -17,23 +17,22 @@ header{
 h1 {
     font-family: "Reggae One", sans-serif;
     font-size: 45px;
+    padding-right: 2%;
   }
 img{
-    padding-left: 2%;
-    width: 150px;
+     width: 150px;
     float: right;
     box-shadow: 0px 0px 5px 5px #888;
     border-radius: 5px;
-
 }
 
 body {
     background-color: #8AA8A1;
-    max-width: 900px;
+    max-width: 600px;
     min-width: fit-content;
     font-family: "Nunito";
     font-size: 20px;
-    padding: auto;
-    border:3px solid #885A89;
+    padding: 5px;
+    border: 3px solid #885A89;
     border-radius: 5px;
 }
