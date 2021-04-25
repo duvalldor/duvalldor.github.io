@@ -7,7 +7,7 @@
     box-shadow:rgb(34, 34, 34);
     border-radius: 2px;
 }
-header, .footer-main{
+.header-main, .footer-main{
     display: flex;
     background: #885A89;
     margin:auto;
@@ -35,7 +35,6 @@ body {
     padding: 5px;
     border: 3px solid #885A89;
     border-radius: 5px;
-    text-align: center;
 }
 .footer-main{
    text-align: center;
