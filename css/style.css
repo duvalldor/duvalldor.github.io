@@ -12,12 +12,14 @@ header{
     background: #885A89;
     margin:auto;
     padding:2%;
+    border-radius: 5px;
 }
-h1, h2 {
+h1 {
     font-family: "Reggae One", sans-serif;
     font-size: 45px;
   }
 img{
+    padding-left: 2%;
     width: 150px;
     float: right;
     box-shadow: 0px 0px 5px 5px #888;
@@ -27,6 +29,11 @@ img{
 
 body {
     background-color: #8AA8A1;
-    font-family: "ReggaeOne";
-    font-size: 35px;
+    max-width: 900px;
+    min-width: fit-content;
+    font-family: "Nunito";
+    font-size: 20px;
+    padding: auto;
+    border:3px solid #885A89;
+    border-radius: 5px;
 }
