@@ -27,9 +27,12 @@ img{
     border-radius: 5px;
 }
 a[href]:hover{
-    color: blue;
+    color: darkblue;
     background-color: orange;
     text-decoration: none;
+}
+a[href]{
+    color: limegreen;
 }
 body {
     background-color: white;
