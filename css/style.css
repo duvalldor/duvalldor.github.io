@@ -7,9 +7,11 @@
     box-shadow:rgb(34, 34, 34);
     border-radius: 2px;
 }
-.header-main, .footer-main{
+.header-main{
     display: flex;
-    background: #885A89;
+}
+.header-main, .footer-main{
+     background: #885A89;
     margin:auto;
     padding:2%;
     border-radius: 5px;

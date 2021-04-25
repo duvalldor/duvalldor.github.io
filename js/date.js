@@ -1,0 +1,1 @@
+document.getElementById('lastmodified').innerHTML = "<p> Last Changed: " + document.lastModified + "</p>"
