@@ -32,7 +32,8 @@ a[href]:hover{
     text-decoration: none;
 }
 a[href]{
-    color: limegreen;
+    color: darkblue;
+    
 }
 body {
     background-color: white;
