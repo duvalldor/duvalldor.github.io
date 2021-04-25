@@ -32,7 +32,7 @@ a[href]:hover{
     text-decoration: none;
 }
 body {
-    background-color: #8AA8A1;
+    background-color: white;
     max-width: 600px;
     min-width: fit-content;
     font-family: "Nunito";
