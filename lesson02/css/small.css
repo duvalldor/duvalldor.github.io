@@ -1,0 +1,69 @@
+.page-main{
+    margin: 0;
+    padding: 0;
+    border-radius: 2px;
+}
+.header-main{
+    display: block;
+    text-align: center;
+}
+.header-main, .footer-main{
+    background: #885A89;
+    margin:auto;
+    padding:2%;
+}
+h1 {
+    font-family: "Reggae One", sans-serif;
+    font-size: 1.5rem;
+    padding-right: 2%;
+  }
+h2{
+    font-size: 1rem;
+}
+nav {
+    text-align: left;
+}
+a[href]:hover{
+    color: hotpink;
+    
+}
+
+a[href]{
+    color: darkblue;
+    font-weight:bold;
+    text-align: left;
+}
+body {
+    background-color: white;
+    max-width: 600px;
+    min-width: fit-content;
+    font-family: "Nunito";
+    font-size: 20px;
+    padding: 5px;
+    border: 3px solid #885A89;
+    border-radius: 5px;
+}
+.main-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.div-1{
+    margin: 1em; 
+    padding: 1em;
+    border: 2px solid #885A89;
+}
+.div-2{
+    margin-top: 1em; 
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 2px solid #885A89;
+}
+.div-3{
+    margin: 1em; 
+    padding: 1em;
+    border: 2px solid #885A89;
+}
+.footer-main{
+    color: white;
+   text-align: center;
+}
