@@ -1,0 +1,91 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
+.lesson03-main{
+    margin: 0;
+    padding: 0;
+    border-radius: 2px;
+}
+header, footer{
+    background: #9BC59D;
+    margin:auto;
+    padding:2%;
+    text-align: center;
+}
+h1, h2, h3 {
+    font-family: "Reggae One", sans-serif;
+}
+h1 {
+    font-size: 1.5rem;
+    padding-right: 2%;
+}
+h2 {
+    font-size: 1.25rem;
+}
+h3 {
+    font-size: 1rem;
+}
+p {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.25rem;
+}
+.logo{
+    width: 5em;
+    height: auto;
+}
+nav li {
+    display: block;
+    padding: .75rem;
+}
+a[href]:hover{
+    color: hotpink;
+}
+a[href]{
+    color: darkblue;
+    font-size: 1.25rem;
+    font-weight:bold;
+    text-decoration: none;
+}
+body {
+    background-color: white;
+    min-width: fit-content;
+    font-family: "Nunito";
+    font-size: 16px;
+    padding: 5px;
+    border: 3px solid #271f30;
+}
+img {
+    max-width: 100%;
+}
+.colors {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-weight: 200;
+}
+.colors th{
+    background-color: #BFA89E;
+}
+.primary {
+    background-color: #9BC59D;
+    color:black; 
+}
+.secondary{
+    background-color: #C8AD55;
+}
+.accent1{
+    background-color: #6C5A49;
+    color: white;
+}
+.accent2{
+    background-color: #271F30;
+    color: white;
+}
+tr th, tr td{
+    padding:10px;
+    margin:10px;
+    text-decoration: bold ;
+}
+footer{
+    color: black;
+}
