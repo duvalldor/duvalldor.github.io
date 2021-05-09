@@ -84,7 +84,7 @@ img {
 tr th, tr td{
     padding:10px;
     margin:10px;
-    text-decoration: bold ;
+    font-weight: 600;
 }
 footer{
     color: black;
