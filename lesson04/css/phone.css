@@ -1,0 +1,105 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
+.lesson04-main{
+    margin: 0;
+    padding: 0;
+    border-radius: 2px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+header, footer{
+    background: #9BC59D;
+    margin:auto;
+    padding:2%;
+    text-align: center;
+}
+h1, h2, h3 {
+    font-family: "Reggae One", sans-serif;
+}
+h1 {
+    font-size: 1.5rem;
+    padding-right: 2%;
+}
+h2 {
+    font-size: 1.25rem;
+}
+h3 {
+    font-size: 1rem;
+}
+p {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.25rem;
+}
+header img{
+    width: 85px;
+    height: auto;
+}
+.navigation li{
+    display: none;
+}
+.navigation li:first-child{
+    display:block;
+}
+.responsive li{
+    display:block;
+}
+nav ul{
+    background-color: rgba(200,173,85,.5);
+}
+nav ul li{
+    display: block;
+    padding: .8rem;
+    border-top:1px solid rgba(0,0,0,.3);
+    
+}
+nav ul li a{
+    color: darkblue;
+    font-size: 1.25rem;
+    font-weight:bold;
+    text-decoration: none; 
+}
+nav ul li.active{
+    background-color: rgba(0,0,0,.1);
+}
+nav ul li a:hover{
+    color: hotpink;
+}
+
+body {
+    background-color: white;
+    min-width: fit-content;
+    font-family: "Nunito";
+    font-size: 16px;
+    padding: 5px;
+ 
+}
+.preston{
+    text-align: center;
+}
+.p-one, .p-two, .p-three, .p-four{
+ border: 1px solid black;
+margin: 5em;
+padding-left: 2em;
+
+}
+footer{
+    color: black;
+}
+/* .primary {
+    background-color: #9BC59D;
+    color:black; 
+}
+.secondary{
+    background-color: #C8AD55;
+}
+.accent1{
+    background-color: #6C5A49;
+    color: white;
+}
+.accent2{
+    background-color: #271F30;
+    color: white;
+}*/

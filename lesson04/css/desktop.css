@@ -1,0 +1,25 @@
+@media only screen and (min-width: 65em){
+    h1 {
+        font-size:3.5rem;
+       } 
+    h2{
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    .navigation li:first-child{
+        display:none;
+    }
+    nav li {
+        display:block;
+        padding-left: 10em;
+    }
+    tr th, tr td{
+        padding:10px;
+        margin:10px;
+    }
+    .logo{
+        width: 10em;
+    }
+}
