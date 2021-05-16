@@ -11,9 +11,9 @@
     .navigation li:first-child{
         display:none;
     }
-    nav li {
-        display:block;
-        padding-left: 10em;
+    .navigation li {
+        display:inline-block;
+        padding-left: 1em;
     }
     tr th, tr td{
         padding:10px;
