@@ -9,7 +9,7 @@ button.addEventListener('click', () => {
         let deletebutton = document.createElement('button');
         //change some properties ...textcontent
         li.textContent = fav.value;
-        deletebutton.textContent = '✖';
+        deletebutton.textContent = '❌';
         //... add the button to the li
         li.append(deletebutton);
         output.append(li);

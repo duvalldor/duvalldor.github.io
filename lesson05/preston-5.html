@@ -10,9 +10,13 @@
     <link rel="stylesheet" href="css/phone.css"/>
     <link rel="stylesheet" href="css/tablet.css"/>
     <link rel="stylesheet" href="css/desktop.css"/>
+
 </head>
-<body>  
+<body> 
+    
     <div class="lesson05-main">
+        <div id="pancakebanner">
+        </div> 
     <header>
         <img class="logo" src="images/IdahoDays2.png" alt="Idaho Days Logo"/>
     <h1>Idaho Days</h1>
@@ -23,7 +27,7 @@
     <ul class="navigation">
         <li><a class="ham" href="#"><strong>&#9776; Menu</strong></a></li>
         <li><a href="#">Home</a></li>
-        <li><a class="active" href="preston-4.html">Preston City</a></li>
+        <li><a class="active" href="preston-5.html">Preston City</a></li>
         <li><a href="#">Soda Springs</a></li>
         <li><a href="#">Fish Haven</a></li>
         <li><a href="#">Storm Center</a></li>
@@ -35,27 +39,88 @@
     <div class="sections">
     <section class="p-one">
         <h3>Hero with Weather Summary</h3>
-
+        <div class=hero>
+            <img class="view" src="images/prestonView.jpg" alt="a view from around Preston Idaho"/>
+              <div class="summary">
+                <h4>Weather Summary</h4>
+                <div class="details">
+                    <p class="label">Currently: &nbsp </p>
+                    <p class="value">Sunny</p>
+                    <p class="label">Temp: &nbsp</p>
+                    <p class="value">85 &deg;F</p>
+                    <p class="label">Wind Chill:  &nbsp</p>
+                    <p class="value">&deg;F</p>
+                    <p class="label">Humidity:  &nbsp</p>
+                    <p class="value">42%</p>
+                    <p class="label">Wind Speed:  &nbsp</p>
+                    <p class="value">2 mph</p>
+                </div>
+              </div>
+        </div>
     </section>
     <section class="p-two">
         <h3>5 Day Forecast</h3>
+        <div class="flex"><div class="flex-col">
+            <span class="col-head">Friday</span>
+            <p>🌞</p>
+            <span class="value">85 &deg;F</span>
+        </div>
+        <div class="flex-col">
+            <span class="col-head">Saturday</span>
+            <p>⛅</p>
+            <span class="value">75 &deg;F</span>
+        </div>
+        <div class="flex-col">
+            <span class="col-head">Sunday</span>
+            <p>🌞</p>
+            <span class="value">90 &deg;F</span>
+        </div>
+        <div class="flex-col">
+            <span class="col-head">Monday</span>
+            <p>🌞</p>
+            <span class="value">87 &deg;F</span>
+        </div>
+        <div class="flex-col">
+            <span class="col-head">Tues</span>
+            <p>🌞</p>
+            <span class="value">92 &deg;F</span>
+        </div>
+    </div>
+
+
     </section>
     <section class="p-three">
         <h3>Article</h3>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto possimus ipsam maiores veritatis, consectetur consequuntur in explicabo eum facere ullam, harum quae dolorem mollitia vero quam expedita tempore iure qui!</p>
+        </div>
     </section>
-    <section class="p-four">
-        <h3>Contact Information</h3>
-    </section>
+    
 </div>
 </main>
 
    <footer class="footer-main" >
+    <section class="p-four">
+        <h3>Contact Information</h3>
+        <p>Address</p>
+        <p>70 West Oneida Preston, Id 83263</p>
+        <p>Phone: (208)852-1817</p>
+    </section>
+    <div class="social">
+        <a href="https://www.facebook.com/" target="_blank">
+          <img src="images/facebook.png" alt="Icon for Facebook"/></a>
+        <a href="https://twitter.com/?lang=en" target="_blank">
+          <img src="images/twitter.png"alt="Icon for Twitter"></a>
+        <a href="https://www.youtube.com/" target="_blank">
+          <img src="images/youtube.png" alt="Icon for Youtube"></a>
+      </div>
     <p>
         &copy; <span id="copyrightyear"></span> |  Doreen Duvall  | <a href="https://wwww.byui.edu/online" target="_blank">BYU-I Online Learning</a>
       </p>
        <div id="lastmodified"></div>
 </footer>
 </div>
-    <script src="js/date.js"></script>    <script src="js/onClick.js"></script>
+    <script src="js/date.js"></script>    <script src="js/onClick.js"></script> 
+    <script src='js/banner.js'></script>
 </body>
 </html>
