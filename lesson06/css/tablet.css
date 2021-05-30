@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em){
+@media only screen and (min-width: 37.5em){
     h1 {
         font-size:3rem;
        } 
@@ -16,7 +16,7 @@
     .logo{
         width: 8em;
     }
-    .summary{
+        .summary{
         position: absolute;
         top:25px;
         right: 75px;
