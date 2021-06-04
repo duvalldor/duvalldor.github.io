@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+    h1{
+        color: green;
+        margin-left: 40px;
+    }
+    p{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    </style>
+    <link href="css/specificity.css" rel="stylesheet" >
+    
+    <title>CSS Specificity</title>
+</head>
+<body>
+    <h1 style="color:red;margin-left:20px;">Today’s Update</h1>
+    <p style="font-weight:500; color:purple; font-size:20px;"">Here is the most <strong>helpful</strong> advice a friend can give!</p>
+
+    <h1>Internal CSS</h1>
+    <p>Here is the paragraph with internal CSS.</p>
+ 
+    <h1 class="external">External CSS</h1>
+    <p class="external">Here is the paragraph with external CSS.</p>
+
+    <h1>Inheritance and Specificity</h1>
+    <ul class="main">
+        <li>Item One</li>
+        <li>Item Two
+            <ul>
+                <li>2.1</li>
+                <li>2.2</li>
+            </ul>
+        </li>
+        <li>Item Three
+            <ul class="special">
+                <li>3.1
+                    <ul>
+                        <li>3.1.1</li>
+                        <li>3.1.2</li>
+                    </ul>
+                </li>
+                <li>3.2</li>
+            </ul>
+        </li>
+    </ul>
+        
+</body>
+</html>

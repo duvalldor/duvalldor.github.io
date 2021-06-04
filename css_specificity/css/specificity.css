@@ -1,0 +1,22 @@
+h1.external{
+    color: orange;
+    margin-left: 40px;
+}
+p.external{
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    font-size:50px;
+}
+
+/* ---Inheritance--- */
+.main {
+    color: rebeccapurple;
+    border: 2px solid #ccc;
+    font-size: 2rem;
+    padding: 1em;
+}
+
+.special {
+    color: black;
+    font-weight: bold;
+}
+    

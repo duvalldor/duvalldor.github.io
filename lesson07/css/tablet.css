@@ -1,0 +1,24 @@
+@media only screen and (min-width: 37.5em){
+    h1 {
+        font-size:3rem;
+       } 
+    h2{
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    nav li {
+        display: inline-block;
+        text-align: center;
+        padding-left: 7em;
+    }
+    .logo{
+        width: 8em;
+    }
+        .summary{
+        position: absolute;
+        top:25px;
+        right: 75px;
+    }
+}

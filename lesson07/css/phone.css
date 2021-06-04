@@ -1,0 +1,162 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
+.lesson05-main{
+    margin: 0;
+    padding: 0;
+    border-radius: 2px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+header, footer{
+    background: #9BC59D;
+    margin:auto;
+    padding:2%;
+    text-align: center;
+}
+h1, h2, h3, h4 {
+    font-family: "Reggae One", sans-serif;
+}
+h1 {
+    font-size: 1.5rem;
+    padding-right: 2%;
+}
+h2 {
+    font-size: 1.25rem;
+}
+h3 {
+    font-size: 1rem;
+}
+p {
+    margin: 0;
+  
+    font-family: "Nunito", sans-serif;
+    font-size: 1.25rem;
+}
+.logo{
+    width: 85px;
+    height: auto;
+    border: none;
+}
+.navigation li{
+    display: none;
+    text-align: center;
+}
+.navigation li:first-child{
+    display:block;
+}
+.responsive li{
+    display:block;
+}
+nav ul{
+    background-color: rgba(200,173,85,.5);
+}
+nav ul li{
+    display: block;
+    padding: .8rem;
+    border-top:1px solid rgba(0,0,0,.3); 
+}
+nav ul li a{
+    padding: 1rem;
+    color: darkblue;
+    font-size: 1.25rem;
+    font-weight:bold;
+    text-decoration: none; 
+}
+nav ul li a.active{
+    background-color: #9BC59D;
+}
+nav ul li a:hover{
+    color: hotpink;
+}
+.view {
+    max-width: 100%;
+    border: 5px solid #6C5A49;
+    border-radius: 2px;
+}
+body {
+    background-color: white;
+    min-width: fit-content;
+    font-family: "Nunito";
+    font-size: 16px;
+    padding: 5px;
+ 
+}
+.preston{
+    text-align: center;
+}
+.hero{
+    position: relative;
+}
+.summary{
+    background: radial-gradient(#eee, rgba(200, 173, 85,.25));
+    border: 1px solid #000;
+    font-weight: bold;
+    text-align: center;
+}
+.details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.label{
+    text-align: right;
+}
+   
+.value{
+    text-align: left;
+}
+.p-one, .p-two, .p-three, .p-four{
+    margin: 5em;
+    padding-left: 2em;
+}
+.p-three{
+    border: 2px solid #6C5A49;
+    display: block;
+}
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+}
+.flex-col{
+    flex: 1 1 auto;
+    background-color: #9BC59D;
+    font-weight: bold;
+    text-align: center;
+    border: auto rgba(200,173,85,.5);
+}
+.article-img{
+    width: 100%;
+    box-shadow: 0 0 50px rgba(200,173,85,.5);
+}
+#pimage{
+    display: block;
+}
+
+.map{
+    float:left;
+    max-width: 50%;
+}
+footer{
+    color: black;
+}
+/*.social{
+
+
+}
+/* .primary {
+    background-color: #9BC59D;
+    color:black; 
+}
+.secondary{
+    background-color: #C8AD55;
+}
+.accent1{
+    background-color: #6C5A49;
+    color: white;
+}
+.accent2{
+    background-color: #271F30;
+    color: white;
+}*/
