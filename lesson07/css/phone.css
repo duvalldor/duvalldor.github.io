@@ -131,7 +131,7 @@ body {
     box-shadow: 0 0 50px rgba(200,173,85,.5);
 }
 #pimage{
-    display: block;
+    display: grid;
 }
 
 .map{
