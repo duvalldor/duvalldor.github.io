@@ -33,7 +33,6 @@ h3 {
 }
 p {
     margin: 0;
-  
     font-family: "Nunito", sans-serif;
     font-size: 1.25rem;
 }
@@ -85,16 +84,10 @@ body {
     font-family: "Nunito";
     font-size: 16px;
     padding: 5px;
- 
 }
 /*Main page (can use classes between pages if needed for the same effect)*/
 .preston, .gallery{
     text-align: center;
-}
-.sec-gallery{
-    /* display: block; */
-   
-  
 }
 .g-pic{
     margin: .5rem .5rem .5rem 1rem;
@@ -102,13 +95,12 @@ body {
     border: 5px double #6C5A49;
     width: 600px;
     height: 375px;
-    /* max-width: fit-content; */
     background-color: #7f669b;
     color: white;
     display: block;
+    align-items: center;
 }
 .g-pic:hover{
-  
     box-shadow: 0px 4px 30px 15px rgba(50, 40, 61, .3)
 }
 p.text{
@@ -130,7 +122,6 @@ p.text{
 .label{
     text-align: right;
 }
-   
 .value{
     text-align: left;
 }
@@ -160,6 +151,7 @@ p.text{
 #pimage{
     display: grid;
 }
+
 /*main footer*/
 .map{
     float:left;
