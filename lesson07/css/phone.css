@@ -97,10 +97,12 @@ body {
   
 }
 .g-pic{
-    margin: 1rem;
+    margin: .5rem .5rem .5rem 1rem;
     padding:2rem;
     border: 5px double #6C5A49;
-    max-width: fit-content;
+    width: 600px;
+    height: 375px;
+    /* max-width: fit-content; */
     background-color: #7f669b;
     display: block;
 }
