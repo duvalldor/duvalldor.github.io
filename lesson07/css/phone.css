@@ -1,6 +1,8 @@
 /* Fonts from Google Fonts - more at https://fonts.google.com */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
+/*Main info for page*/
+
 .lesson05-main{
     margin: 0;
     padding: 0;
@@ -35,6 +37,7 @@ p {
     font-family: "Nunito", sans-serif;
     font-size: 1.25rem;
 }
+/* Header and main menu for all pages*/
 .logo{
     width: 85px;
     height: auto;
@@ -84,8 +87,13 @@ body {
     padding: 5px;
  
 }
-.preston{
+/*Main page (can use classes between pages if needed for the same effect)*/
+.preston, .gallery{
     text-align: center;
+}
+.gallery[p]{
+    margin:0 auto;
+    padding:1.5rem;
 }
 .hero{
     position: relative;
@@ -133,17 +141,13 @@ body {
 #pimage{
     display: grid;
 }
-
+/*main footer*/
 .map{
     float:left;
     max-width: 50%;
 }
 footer{
     color: black;
-}
-/*.social{
-
-
 }
 /* .primary {
     background-color: #9BC59D;
