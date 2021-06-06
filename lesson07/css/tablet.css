@@ -21,4 +21,8 @@
         top:25px;
         right: 75px;
     }
-}
+    .sec-gallery{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+  }
