@@ -18,12 +18,24 @@ if (localStorage.timesvisited == undefined) {
 const timesvisited = `Welcome, you have visited this page: ${localStorage.timesvisited} times`;
 document.querySelector(`#timesvisited`).textContent = timesvisited;
 
+//document.querySelector(`#sincelastvisit`).textContent = "Hi Mom";
 
 //days since last visit    sincelastvisit
 var dateoflastvisit = new Date();
 if (localStorage.dateoflastvisit != undefined) {
-    dateoflastvisit = localStorage.dateoflastvisit;
+    dateoflastvisit = new Date(localStorage.dateoflastvisit);
 }
 localStorage.dateoflastvisit = new Date();
 
-const sincelastvisit = new Date() - dateoflastvisit;
+const today = new Date();
+const numToday = today.getFullYear() * 365 + today.getMonth() * 31 + today.getDay();
+const strnumToday = `Hi numToday ${numToday}`;
+//document.querySelector(`#sincelastvisit`).textContent = strnumToday;
+
+const numLast = today.getFullYear() * 365 + today.getMonth() * 31 + today.getDay();
+const strnumLast = `Hi numLast ${numLast}`;
+//document.querySelector(`#sincelastvisit`).textContent = strnumLast;
+
+const numDays = numToday - numLast;
+const sincelastvisit = `You last visited  ${numDays} days ago`; 
+document.querySelector(`#sincelastvisit`).textContent = sincelastvisit;
