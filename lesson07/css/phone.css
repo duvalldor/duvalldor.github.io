@@ -104,6 +104,7 @@ body {
     height: 375px;
     /* max-width: fit-content; */
     background-color: #7f669b;
+    color: white;
     display: block;
 }
 .g-pic:hover{
