@@ -36,6 +36,6 @@ const numLast = today.getFullYear() * 365 + today.getMonth() * 31 + today.getDay
 const strnumLast = `Hi numLast ${numLast}`;
 //document.querySelector(`#sincelastvisit`).textContent = strnumLast;
 
-const numDays = numToday - numLast;
+const numDays = numToday  - numLast;
 const sincelastvisit = `You last visited  ${numDays} days ago`; 
 document.querySelector(`#sincelastvisit`).textContent = sincelastvisit;
