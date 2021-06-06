@@ -151,7 +151,7 @@ p.text{
     background-color: #9BC59D;
     font-weight: bold;
     text-align: center;
-    border: auto rgba(200,173,85,.5);
+    border: ridge rgba(200,173,85,.5);
 }
 .article-img{
     width: 100%;
