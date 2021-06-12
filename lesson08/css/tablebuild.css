@@ -3,19 +3,27 @@ body{
     font-family: "Ubuntu", sans-serif;
     margin: auto;
     width:50%;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 table{
     text-align:center;
     background-color:darkgrey;
     box-shadow:10px 10px .4em #628ca6;
+    width: 100%;
 }
 thead tr th, tfoot tr td {
     background-color: #7fb9c2;
 }
+thead tr th{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
 thead tr th.dark{
     background-color: #628ca6;
     color: white;
+}
+tfoot tr td{
+    font-size: .85rem;
 }
 tr{
     background-color: #e7ffed;
