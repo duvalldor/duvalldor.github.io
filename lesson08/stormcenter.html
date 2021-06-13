@@ -41,15 +41,15 @@
             <form method="GET" action="thanks.html">
                 <fieldset>
                     <legend>Storm Information Gathered by:</legend>
-                    <label class="top">Full Name* <input type="text" name="fullname" required></label>
+                    <label class="top">Full Name* <input type="text" name="fullname" required pattern="[A-Za-z/s]{5,}"></label>
                     <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
-                    <label class="top">Phone Number* <input type="tel" placeholder="1235551234" required></label>
-                    <label class="top">Zip Code* <input type="number" required></label>
+                    <label class="top">Phone Number* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                    <label class="top">Zip Code* <input type="number" name="zip" required></label>
                 </fieldset>
                 <fieldset>
                     <legend>Storm Information</legend>
-                    <label class="strm">Storm Date <input type="date"></label>
-                    <label class="strm">Storm Type: <input name="type" list="stormlist"></label>
+                    <label class="strm">Storm Date <input type="date" name="date"></label>
+                    <label class="strm">Storm Type: <input type="text" name="type" list="stormlist"></label>
                     <datalist id="stormlist">
                         <option value="Flash Flood"></option>
                         <option value="Hail"></option>
@@ -58,7 +58,7 @@
                         <option value="Tornado"></option>
                     </datalist>
                     <label class="flexly strm" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
-                        <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <input type="range" id="rating" value="5" min="1" max="10" step="1" name="severity" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         <span id="ratingvalue">5</span>
                         <datalist id="tickmarks">
                             <option value="0">
@@ -91,13 +91,13 @@
                        
                 </fieldset>
                     <label class="top"> If you have any information that can help, please comment here: 
-                        <input class="textarea" ></label>
-                    <input type="submit" value="Log Storm Data" class="submitBtn"> 
+                        <input class="textarea" type="textarea" name="comments"></label>
+                    <label class="top"><input type="submit" value="Log Storm Data" class="submitBtn"> </label>
                 </fieldset>
             </form>
 </main>
 
-   <footer class="footer-main" >
+   <footer class="footer-main">
     <section class="p-four">
         <img class="map" src="images/mapofPreston_150x172.jpg" alt="google map of preston"/>
         <h3>Contact Information</h3>
