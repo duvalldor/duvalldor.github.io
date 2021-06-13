@@ -151,6 +151,51 @@ p.text{
 #pimage{
     display: grid;
 }
+/*--------------FORM---------*/
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #251774;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+form legend {
+    color:#251774;
+    margin:0 1rem;
+    padding: .5rem;
+}
+form label.top {
+    display: block;
+    padding: .5rem;
+    font-size: .9rem;
+}
+form label.top input, form label.strm {
+    display: block;
+    font-size: 1rem;
+    padding: .75rem;
+    color:#000;
+    width: 95%;
+    max-width: 20rem;
+}
+form label.sbs{
+    display: block;
+    padding: .75rem;
+}
+form input.submitBtn{
+    border: none;
+    background-color: #271F30;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: .5rem 0 1rem 2%;
+    width: 95%;
+    max-width: 20rem;
+}
+form label.top input:required {
+    border-left: red solid 6px;
+}
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
 
 /*main footer*/
 .map{

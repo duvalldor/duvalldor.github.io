@@ -36,22 +36,20 @@
 </nav>
 <main>
     <h2 class="preston">Storm Center</h2>
-    <div class="sections">
-   
-        <h3>Storm Center Information</h3>
-        <section class="p-one">
-            <form method="GET" action+>
+       <h3>Storm Center Information</h3>
+      
+            <form method="GET" action="thanks.html">
                 <fieldset>
                     <legend>Storm Information Gathered by:</legend>
-                    <label>Full Name* <input type="text" name="fullname" required></label>
-                    <label>Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
-                    <label>Phone Number* <input type="tel" placeholder="1235551234"required></label>
-                    <label>Zip Code* <input type="number" required></label>
+                    <label class="top">Full Name* <input type="text" name="fullname" required></label>
+                    <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                    <label class="top">Phone Number* <input type="tel" placeholder="1235551234" required></label>
+                    <label class="top">Zip Code* <input type="number" required></label>
                 </fieldset>
                 <fieldset>
                     <legend>Storm Information</legend>
-                    <label>Storm Date <input type="date"></label>
-                    <label>Storm Type: <input name="type" list="stormlist"></label>
+                    <label class="strm">Storm Date <input type="date"></label>
+                    <label class="strm">Storm Type: <input name="type" list="stormlist"></label>
                     <datalist id="stormlist">
                         <option value="Flash Flood"></option>
                         <option value="Hail"></option>
@@ -59,7 +57,7 @@
                         <option value="Thunderstorm"></option>
                         <option value="Tornado"></option>
                     </datalist>
-                    <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+                    <label class="flexly strm" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
                         <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         <span id="ratingvalue">5</span>
                         <datalist id="tickmarks">
@@ -75,31 +73,33 @@
                             <option value="9">
                             <option value="10">
                         </datalist>
-                        <label>
-                            <select name="region" id="selectregion" onchange="selectResponse()">
-                                <option value="" disabled selected>Select Region ...</option>
-                                <option value="Preston">Preston</option>
-                                <option value="SodaSprings">Soda Springs</option>
-                                <option value="FishHaven">Fish Haven</option>
-                            </select>
-                        </label>
-                <fieldset class="nestedfieldset">
-                        <label>
-                            <legend>Are you in danger?<em>(Choose One)</em></legend>
-                            <input type="radio" id="danger1" name="yes" value="yes" ><label for="danger1">Yes</label>
-                            <input type="radio" id="danger2" name="no" value="no" ><label for="danger2">No</label>
-                            <input type="radio" id="danger3" name="maybe" value="maybe" ><label for="danger3">Maybe</label>
-                        </label>
+                    </label>
+                    <label class="strm">
+                        <select name="region" id="selectregion" onchange="selectResponse()">
+                            <option value="" disabled selected>Select Region ...</option>
+                            <option value="Preston">Preston</option>
+                            <option value="SodaSprings">Soda Springs</option>
+                            <option value="FishHaven">Fish Haven</option>
+                        </select>
+                    </label>    
+                <fieldset class="top">
+                       
+                            <legend class="bms">Are you in danger?<em>(Choose One)</em></legend>
+                            <label class="sbs" for="danger1"><input type="radio" id="danger1" name="yes" value="yes" >Yes</label>
+                            <label class="sbs"  for="danger2"><input type="radio" id="danger2" name="no" value="no" >No</label>
+                            <label  class="sbs" for="danger3"><input type="radio" id="danger3" name="maybe" value="maybe" >Maybe</label>
+                       
                 </fieldset>
-                <label> Any information that can help, please comment here: 
-                    <input class="textarea" for="moreinformation"></label>
+                    <label class="top"> If you have any information that can help, please comment here: 
+                        <input class="textarea" ></label>
+                    <input type="submit" value="Log Storm Data" class="submitBtn"> 
                 </fieldset>
             </form>
 </main>
 
    <footer class="footer-main" >
     <section class="p-four">
-        <img class="map" src="images/mapofPreston.jpg" alt="google map of preston"/>
+        <img class="map" src="images/mapofPreston_150x172.jpg" alt="google map of preston"/>
         <h3>Contact Information</h3>
         <p>Address</p>
         <p>70 West Oneida Preston, Id 83263</p>
@@ -109,7 +109,7 @@
         <a href="https://www.facebook.com/" target="_blank">
           <img src="images/facebook.png" alt="Icon for Facebook"/></a>
         <a href="https://twitter.com/?lang=en" target="_blank">
-          <img src="images/twitter.png"alt="Icon for Twitter"></a>
+          <img src="images/twitter.png" alt="Icon for Twitter"></a>
         <a href="https://www.youtube.com/" target="_blank">
           <img src="images/youtube.png" alt="Icon for Youtube"></a>
       </div>
