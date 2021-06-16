@@ -11,25 +11,34 @@ h1, footer{
     text-align: center;
     background-color:  #9BC59D;
 }
-body{
-    background-color: #dbd8cb; 
+/*-------body--------*/
+h2{
+    font-family: "Reggae One", sans-serif;
+    font-size: 2rem;
 }
-.card{
+body{ 
+    background-color: #b4ceb5;
+}
+.cards{
+   
     align-content:center;
-    font-family:"Nunito", sans-serif;
     display: grid;
-    grid-template-columns: 100%));
+   
 }
 section{
     margin: .5rem;
-    padding: 1rem;
+    padding: .5rem;
     text-align: center;
+    background-color: #dbd8cb;
     border: 2px solid #C8AD55;
-    box-shadow: 5px 5px 15px #6C5A49;
+    box-shadow: 5px 10px 15px #6C5A49;
+    font-family:"Nunito", sans-serif;
+    font-size: 1rem;
 }
 img{
     width: 100%;
     height: auto;
+    max-width: 250px;
 }
 /************ Media Quiry for medium screens ***************/
 @media only screen and (min-width: 34em) {
@@ -39,7 +48,7 @@ img{
 }
 
 /************ Media Quiry for Large screens ***************/
-@media only screen and (min-width: 58em) {
+@media only screen and (min-width: 60em) {
     .cards {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
@@ -52,7 +61,7 @@ img{
     background-color: #C8AD55; (tan gold)
 }
 .accent1{
-    background-color: #6C5A49; (dark brown-gold)
+    background-color: ; (dark brown-gold)
     color: white;
 }
 .accent2{
