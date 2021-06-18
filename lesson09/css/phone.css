@@ -31,6 +31,7 @@ h2 {
 h3 {
     font-size: 1rem;
 }
+
 p {
     margin: 0;
     font-family: "Nunito", sans-serif;
@@ -41,6 +42,9 @@ p {
     width: 85px;
     height: auto;
     border: none;
+}
+.motto{
+    
 }
 .navigation li{
     display: none;
@@ -148,9 +152,9 @@ p.text{
     width: 100%;
     box-shadow: 0 0 50px rgba(200,173,85,.5);
 }
-#pimage{
+/* #pimage{
     display: grid;
-}
+} */
 /*--------------FORM---------*/
 form fieldset {
     margin: 2rem 0;
