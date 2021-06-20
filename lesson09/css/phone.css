@@ -149,6 +149,9 @@ p.text{
     width: 100%;
     box-shadow: 0 0 50px rgba(200,173,85,.5);
 }
+img.folsom, img.folsomlow{
+    width: 50%;
+}
 /*---Wireframe css only*/
 .wireframe{
     width: 350px;
