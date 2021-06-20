@@ -1,4 +1,4 @@
-@media only screen and (min-width: 50.5em){
+@media only screen and (min-width: 45em){
     h1 {
         font-size:3rem;
        } 
@@ -16,6 +16,20 @@
     .logo{
         width: 8em;
     }
+    /*--homepage--*/
+    .citycards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    img.citycards:nth-child(odd) {
+        grid-column: 1/2;
+        grid-row:2/3;
+    }
+    h2, h3, p.citycards:nth-child(even){
+        grid-column:1;
+    }
+
+    /*--Weather Summary*/
         .summary{
         position: absolute;
         top:25px;

@@ -19,7 +19,6 @@ fetch(requestURL)
                 let citycards = document.createElement('section');
                 let h2 = document.createElement('h2');
                 let h3 = document.createElement('h3');
-                // let towninfo = document.createElement('div');
                 let year = document.createElement('p');
                 let population = document.createElement('p');
                 let annrain = document.createElement('p');

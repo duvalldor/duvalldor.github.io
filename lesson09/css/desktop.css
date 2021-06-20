@@ -22,6 +22,10 @@
     .logo{
         width: 10em;
     }
+    .citycards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     .sec-gallery{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;

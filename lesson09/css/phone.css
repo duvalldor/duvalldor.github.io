@@ -18,6 +18,14 @@ header, footer{
     padding:2%;
     text-align: center;
 }
+.logo{
+    width: 85px;
+    height: auto;
+    border: none;
+}
+.motto{
+    align-self: flex-left;
+}
 h1, h2, h3, h4 {
     font-family: "Reggae One", sans-serif;
 }
@@ -38,11 +46,7 @@ p {
     font-size: 1.25rem;
 }
 /* Header and main menu for all pages*/
-.logo{
-    width: 85px;
-    height: auto;
-    border: none;
-}
+
 .navigation li{
     display: none;
     text-align: center;
@@ -85,6 +89,67 @@ body {
     font-family: "Nunito";
     font-size: 16px;
     padding: 5px;
+}
+/* -----Home page------*/
+main.home{
+    display: grid;
+    align-items: center;
+}
+.home h2{
+    text-align: center;
+}
+main div{
+    grid-gap: 1rem;
+}
+.citycards{
+    grid-gap: 1rem;
+}
+.citycards h2, h3{
+    margin: 0 auto;
+    text-align: center;
+}
+.citycards section {
+    border: solid 3px rgba(200,173,85);
+  
+    text-align: center;
+    background-color: #9cbdf3;
+    padding: 0.5rem;
+    
+    }
+main div.section{
+    display: block;
+    grid-template-columns: 1fr;
+}
+
+.citycards p{
+    margin: 0;
+    line-height: 1em;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    padding: 5px;
+    
+}
+.citycards img{
+    display: block;
+    margin: 5px auto;
+    box-shadow: 0 0 15px #271F30;
+    max-width: 300px;
+    width: 85%;
+}
+div.article{
+    margin: 10px 0 10px 0;
+    display:grid;
+    grid-template-columns: 1fr;
+    border: solid 3px rgba(200,173,85);
+}
+img.folsom, img.folsomlow{
+    box-shadow: 0 0 15px #271F30;
+}
+img.folsomlow{
+    text-align: right;
+}
+div.article p{
+    text-justify: center;
 }
 /*Main page (can use classes between pages if needed for the same effect)*/
 .preston, .gallery{
