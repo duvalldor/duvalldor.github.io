@@ -16,7 +16,7 @@ if (localStorage.timesvisited == undefined) {
     localStorage.timesvisited = Number(localStorage.timesvisited) + 1;
 }
 const timesvisited = `Welcome, you have visited this page: ${localStorage.timesvisited} times`;
-document.querySelector(`#timesvisited`).textContent = timesvisited;
+// document.querySelector(`#timesvisited`).textContent = timesvisited;
 
 //document.querySelector(`#sincelastvisit`).textContent = "Hi Mom";
 
@@ -38,7 +38,7 @@ const strnumLast = `Hi numLast ${numLast}`;
 
 const numDays = numToday  - numLast;
 const sincelastvisit = `You last visited  ${numDays} days ago`; 
-document.querySelector(`#sincelastvisit`).textContent = sincelastvisit;
+// document.querySelector(`#sincelastvisit`).textContent = sincelastvisit;
 
 //set up the rating choice for the severity of the storm
 function adjustRating(rating) {

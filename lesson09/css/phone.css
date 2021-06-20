@@ -43,9 +43,6 @@ p {
     height: auto;
     border: none;
 }
-.motto{
-    
-}
 .navigation li{
     display: none;
     text-align: center;
@@ -152,9 +149,13 @@ p.text{
     width: 100%;
     box-shadow: 0 0 50px rgba(200,173,85,.5);
 }
-/* #pimage{
-    display: grid;
-} */
+/*---Wireframe css only*/
+.wireframe{
+    width: 350px;
+}
+.largewireframe{
+    width: 750px;
+}
 /*--------------FORM---------*/
 form fieldset {
     margin: 2rem 0;
