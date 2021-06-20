@@ -23,9 +23,6 @@ header, footer{
     height: auto;
     border: none;
 }
-.motto{
-    align-self: flex-left;
-}
 h1, h2, h3, h4 {
     font-family: "Reggae One", sans-serif;
 }
