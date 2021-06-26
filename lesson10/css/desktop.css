@@ -1,0 +1,33 @@
+@media only screen and (min-width: 85em){
+    h1 {
+        font-size:3.5rem;
+       } 
+    h2{
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    .navigation li:first-child{
+        display:none;
+    }
+    .navigation li {
+        display:inline-block;
+        padding-left: 1em;
+    }
+    tr th, tr td{
+        padding:10px;
+        margin:10px;
+    }
+    .logo{
+        width: 10em;
+    }
+    .citycards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .sec-gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
