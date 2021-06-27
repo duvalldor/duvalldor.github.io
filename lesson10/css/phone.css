@@ -152,7 +152,7 @@ div article p{
     text-align: center;
 }
 /*Main page (can use classes between pages if needed for the same effect)*/
-.townname, .gallery{
+.townname, .forcast5name, .gallery{
     text-align: center;
 }
 .g-pic{
@@ -180,6 +180,9 @@ p.text{
     border: 1px solid #000;
     font-weight: bold;
     text-align: center;
+        position: absolute;
+        top:25px;
+        left: 25px;
 }
 .details{
     display: grid;

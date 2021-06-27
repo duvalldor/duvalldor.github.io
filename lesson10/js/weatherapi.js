@@ -23,10 +23,10 @@ fetch(apiURL)
     desc.textContent = jsObject.weather[0].main;//referencing the weather array
 
     // if (curtemp =< 50 && windspd => 3) {
-    // windchill(temp, speed);
+    // windchill(curtemp, windspd);
     // }
     // else {
-    // document.getElementById('#wc').textContent = 'N/A'
+    // document.getElementById('#wc').textContent = 'N/A xx'
     // }
    
    

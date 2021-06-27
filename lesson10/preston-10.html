@@ -54,7 +54,7 @@
                     <p class="label">Temp: &nbsp</p>
                     <p class="value"><span class="curtemp"></span> &deg;F</p>
                     <p class="label">Wind Chill:  &nbsp</p>
-                    <p class="value"><span id="wc"></span>&deg;F</p>
+                    <p class="value"><span id="wc"></span>&deg;Frex</p>
                     <p class="label">Humidity:  &nbsp</p>
                     <p class="value"><span class="humid"></span> %</p>
                     <p class="label">Wind Speed:  &nbsp</p>
@@ -64,33 +64,34 @@
         </div>
     </section>
     <section class="p-two">
-        <h3>5 Day Forecast</h3>
-        <div class="flex"><div class="flex-col">
-            <span id="dayofweek1"></span>
-            <img id="iconday1"></img>
-            <p><span id="forecast1"></span> &deg;F</p>
+        <h2 class="forcast5name">5 Day Forecast</h2>
+        <div class="flex">
+            <div class="flex-col">
+                <p><span id="dayofweek1"></span></p>
+                <img id="iconday1"></img>
+                <p><span id="forecast1"></span> &deg;F</p>
+            </div>
+            <div class="flex-col">
+                <p><span id="dayofweek2"></span></p>
+                <img id="iconday2"></img>
+                <p><span id="forecast2"></span> &deg;F</p>
+            </div>
+            <div class="flex-col">
+                <p><span id="dayofweek3"></span></p>
+                <img id="iconday3"></img>
+                <p><span id="forecast3"></span> &deg;F</p>
+            </div>
+            <div class="flex-col">
+                <p><span id="dayofweek4"></span></p>
+                <img id="iconday4"></img>
+                <p><span id="forecast4"></span> &deg;F</p>
+            </div>
+            <div class="flex-col">
+                <p><span id="dayofweek5"></span></p>
+                <img id="iconday5"></img>
+                <p><span id="forecast5"></span> &deg;F</p>
+            </div>
         </div>
-        <div class="flex-col">
-            <span id="dayofweek2">Saturday</span>
-            <img id="iconday2"></img>
-            <p><span id="forecast2"></span> &deg;F</p>
-        </div>
-        <div class="flex-col">
-            <span id="dayofweek3">Sunday</span>
-            <img id="iconday3"></img>
-            <p><span id="forecast3"></span> &deg;F</p>
-        </div>
-        <div class="flex-col">
-            <span id="dayofweek4">Monday</span>
-            <img id="iconday4"></img>
-            <p><span id="forecast4"></span> &deg;F</p>
-        </div>
-        <div class="flex-col">
-            <span id="dayofweek5">Tues</span>
-            <img id="iconday5"></img>
-            <p><span id="forecast5"></span> &deg;F</p>
-        </div>
-    </div>
 
 
     </section>
@@ -125,6 +126,7 @@
         &copy; <span id="copyrightyear"></span> |  Doreen Duvall  | <a href="https://wwww.byui.edu/online" target="_blank">BYU-I Online Learning</a>
       </p>
        <div id="lastmodified"></div>
+       <h5>Weather data from <a href="https://OpenWeatherMap.org" target="_blank">OpenWeatherMap.org</a></h5>
 </footer>
 </div>
 
