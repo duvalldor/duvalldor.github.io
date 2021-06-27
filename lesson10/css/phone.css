@@ -2,8 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
 /*Main info for page*/
-
-.lesson05-main{
+.largess{
+    max-width: 1000px;
+}
+.townname-main{
     margin: 0;
     padding: 0;
     border-radius: 2px;
@@ -150,7 +152,7 @@ div article p{
     text-align: center;
 }
 /*Main page (can use classes between pages if needed for the same effect)*/
-.preston, .gallery{
+.townname, .gallery{
     text-align: center;
 }
 .g-pic{

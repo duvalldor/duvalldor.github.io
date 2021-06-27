@@ -14,11 +14,12 @@
     <script defer src="js/onClick.js"></script> 
     <script defer src='js/banner.js'></script>
     <script defer src='js/weatherapi.js'></script>
+    <script defer src='js/forecastapi.js'></script>
 
 </head>
-<body> 
+<body class="largess"> 
     
-    <div class="lesson05-main">
+    <div class="townname-main">
         <div id="pancakebanner">
         </div> 
     <header>
@@ -31,7 +32,7 @@
     <ul class="navigation">
         <li><a class="ham" href="#"><strong>&#9776; Menu</strong></a></li>
         <li><a href="#">Home</a></li>
-        <li><a class="active" href="preston-5.html">Preston City</a></li>
+        <li><a class="active" href="preston-10.html">Preston City</a></li>
         <li><a href="#">Soda Springs</a></li>
         <li><a href="#">Fish Haven</a></li>
         <li><a href="#">Storm Center</a></li>
@@ -39,7 +40,7 @@
     </ul>
 </nav>
 <main>
-    <h2 class="preston">Preston City</h2>
+    <h2 class="townname">Preston City</h2>
     <div class="sections">
     <section class="p-one">
         <h3>Hero with Weather Summary</h3>
@@ -49,15 +50,15 @@
                 <h4>Weather Summary</h4>
                 <div class="details">
                     <p class="label">Currently: &nbsp </p>
-                    <p class="value desc"></p>
+                    <p class="value"><span class="desc"></p>
                     <p class="label">Temp: &nbsp</p>
-                    <p class="value curtemp"> &#8457;</p>
+                    <p class="value"><span class="curtemp"></span> &deg;F</p>
                     <p class="label">Wind Chill:  &nbsp</p>
-                    <p class="value" id="wc">&deg;F</p>
+                    <p class="value"><span id="wc"></span>&deg;F</p>
                     <p class="label">Humidity:  &nbsp</p>
-                    <p class="value humid"> %</p>
+                    <p class="value"><span class="humid"></span> %</p>
                     <p class="label">Wind Speed:  &nbsp</p>
-                    <p class="value wspeed"> </p>
+                    <p class="value"><span class="wspeed"></span> mph</p>
                 </div>
               </div>
         </div>
@@ -65,29 +66,29 @@
     <section class="p-two">
         <h3>5 Day Forecast</h3>
         <div class="flex"><div class="flex-col">
-            <span class="col-head">Friday</span>
-            <p>🌞</p>
-            <span class="value">85 &deg;F</span>
+            <span id="dayofweek1"></span>
+            <img id="iconday1"></img>
+            <p><span id="forecast1"></span> &deg;F</p>
         </div>
         <div class="flex-col">
-            <span class="col-head">Saturday</span>
-            <p>⛅</p>
-            <span class="value">75 &deg;F</span>
+            <span id="dayofweek2">Saturday</span>
+            <img id="iconday2"></img>
+            <p><span id="forecast2"></span> &deg;F</p>
         </div>
         <div class="flex-col">
-            <span class="col-head">Sunday</span>
-            <p>🌞</p>
-            <span class="value">90 &deg;F</span>
+            <span id="dayofweek3">Sunday</span>
+            <img id="iconday3"></img>
+            <p><span id="forecast3"></span> &deg;F</p>
         </div>
         <div class="flex-col">
-            <span class="col-head">Monday</span>
-            <p>🌞</p>
-            <span class="value">87 &deg;F</span>
+            <span id="dayofweek4">Monday</span>
+            <img id="iconday4"></img>
+            <p><span id="forecast4"></span> &deg;F</p>
         </div>
         <div class="flex-col">
-            <span class="col-head">Tues</span>
-            <p>🌞</p>
-            <span class="value">92 &deg;F</span>
+            <span id="dayofweek5">Tues</span>
+            <img id="iconday5"></img>
+            <p><span id="forecast5"></span> &deg;F</p>
         </div>
     </div>
 
