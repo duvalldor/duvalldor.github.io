@@ -8,13 +8,15 @@ const apiURL = `https://api.openweathermap.org/data/2.5/weather?id=${cityid}&APP
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-        console.log(jsObject);
-        
-    const curtemp = document.querySelector('.curtemp');
-    curtemp.textContent = jsObject.main.temp.toFixed(1);
+        // console.log(jsObject);
     
+    const ct = jsObject.main.temp.toFixed(1);
+    const curtemp = document.querySelector('.curtemp');
+    curtemp.textContent = ct;
+    
+    const ws = jsObject.wind.speed.toFixed(1);
     const windspd = document.querySelector('.wspeed');
-    windspd.textContent = jsObject.wind.speed.toFixed(1);
+    windspd.textContent = ws;
         
     const hum = document.querySelector('.humid');
     hum.textContent = jsObject.main.humidity;
@@ -22,11 +24,14 @@ fetch(apiURL)
     const desc = document.querySelector('.desc');
     desc.textContent = jsObject.weather[0].main;//referencing the weather array
 
-    // if (curtemp =< 50 && windspd => 3) {
-    // windchill(curtemp, windspd);
+    // console.log('checking windchill');
+    // console.log(ws);
+    // console.log(ct);
+    // if (ws < 3 || ct > 80) {
+    //   document.getElementById('wc').textContent = 'N/A xx';
     // }
     // else {
-    // document.getElementById('#wc').textContent = 'N/A xx'
+      windchill(ct, ws);
     // }
    
    

@@ -22,8 +22,8 @@ const iconimageURL = "https://openweathermap.org/img/wn/";
         let d = new Date(x.dt_txt);
         document.getElementById(`dayofweek${day}`).textContent = dayofweek[d.getDay()];
 
-        document.getElementById(`iconday${day}`).setAttribute('src',iconimageURL + x.weather[0].icon + '@2x.png');
-        document.getElementById(`iconday${day}`).setAttribute('alt',x.weather[0].description);
+        document.getElementById(`iconday${day}`).setAttribute('src', iconimageURL + x.weather[0].icon + '@2x.png');
+        document.getElementById(`iconday${day}`).setAttribute('alt', x.weather[0].description);
 
         document.getElementById(`forecast${day}`).textContent = x.main.temp.toFixed(1);
         day++
