@@ -2,7 +2,7 @@
 //  const cityid = 5604473;
 // const APPID = "d68b260cc48f984ad54c1861be8879fb";
 
-const fapiURL = `http://api.openweathermap.org/data/2.5/forecast?id=${cityid}&appid=${APPID}&units=imperial`;
+const fapiURL = `https://api.openweathermap.org/data/2.5/forecast?id=${cityid}&appid=${APPID}&units=imperial`;
 const iconimageURL = "https://openweathermap.org/img/wn/";
 
  fetch(fapiURL)
