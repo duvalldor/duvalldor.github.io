@@ -1,5 +1,31 @@
 //source of towndata in json
 const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json'
+const townevents = 'https://byui-cit230.github.io/weather/data/towndata.json';
+
+fetch(townevents)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject2) {
+        
+        console.log(jsonObject2);//temporarily check to make sure we see a response
+
+        // //name the jsonObject2
+        // const events = jsonObject2(events)
+
+        //   //works through each town in the array of towns
+        //   for (let i = 0; i < cities.length; i++) {
+        //     //filter to only include preston, soda springs and fish haven.
+        //       if (cities[i].name == "Fish Haven" || cities[i].name == "Preston" || cities[i].name == "Soda Springs") {
+                
+        //           //works through each event in the town chosen 
+        //           for (let j = 0; j < cities.[i.events.length; j++){
+        //               e = document.createElement('div')
+        //               e.textContent = cities[i].events[j]
+        //               document.getElementById('upcoming').appendChild(e)
+        //         }                    )
+
+    });
 
 fetch(requestURL)
     .then(function(response) {
@@ -7,7 +33,8 @@ fetch(requestURL)
     })
     .then(function(jsonObject) {
         
-        //    console.tablel(jsonObject); //temporary checking for valid response and data parsing- which I can't make work
+        //console.tablel(jsonObject); //temporary checking for valid response and data parsing- 
+        
         //name the jsonObject
         const cities = jsonObject['towns']
         
