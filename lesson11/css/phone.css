@@ -2,8 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
 /*Main info for page*/
-.largess{
+.mainpage{
     max-width: 1000px;
+    margin: auto;
 }
 .townname-main{
     margin: 0;
@@ -33,7 +34,7 @@ h1 {
     padding-right: 2%;
 }
 h2 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 h3 {
     font-size: 1rem;
@@ -157,12 +158,16 @@ div article p{
 .townname, .forcast5name, .gallery{
     text-align: center;
 }
+.g-pic picture img{
+    width:395px;
+    height: auto;
+}
 .g-pic{
-    margin: .5rem .5rem .5rem 1rem;
+    margin: .5rem .5rem .5rem .25rem;
     padding:2rem;
     border: 5px double #6C5A49;
-    width: 600px;
-    height: 375px;
+    width:400px;
+    height: auto;
     background-color: #7f669b;
     color: white;
     display: block;

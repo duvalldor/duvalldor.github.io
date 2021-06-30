@@ -6,7 +6,7 @@
         font-size: 2rem;
     }
     h3 {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
     nav li {
         display: inline-block;
@@ -14,7 +14,7 @@
         padding-left: 7em;
     }
     .logo{
-        width: 8em;
+        width: 128px;
     }
     /*--homepage--*/
     /* .citycards section{
