@@ -10,8 +10,8 @@ fetch(requestURL)
         //    console.tablel(jsonObject); //temporary checking for valid response and data parsing- which I can't make work
         //name the jsonObject
         const cities = jsonObject['towns']
-        // const town = towns.filter(x => x.name == 'Preston' || x.name == 'Fish Haven' || x.name == 'Soda Springs'){
-        //works through each prophet in the array of prophets
+        
+        //works through each town in the array of towns
         for (let i = 0; i < cities.length; i++) {
             //filter to only include preston, soda springs and fish haven.
             if (cities[i].name == "Fish Haven" || cities[i].name == "Preston" || cities[i].name == "Soda Springs") {
@@ -23,6 +23,8 @@ fetch(requestURL)
                 let population = document.createElement('p');
                 let annrain = document.createElement('p');
                 let eximage = document.createElement('img');
+                let details = document.createElement('div');
+               
 
 
                 //set up what will be going in each of the create elements
@@ -33,17 +35,18 @@ fetch(requestURL)
                 annrain.textContent = "Annual Rainfall: " + cities[i].averageRainfall;
 
                 eximage.setAttribute('src', "images/" + cities[i].photo);
-                eximage.setAttribute('alt', "picture of " + h3.textContent);
+                eximage.setAttribute('alt', "picture of " + name.textContent);
         
         
                 //tell the card the order you want the information placed
-                citycards.appendChild(h2);
-                citycards.appendChild(h3);
-                // citycards.appendChild(motto);
-                citycards.appendChild(year);
-                citycards.appendChild(population);
-                citycards.appendChild(annrain);
+                details.appendChild(h2); //this is the city name
+                details.appendChild(h3);// this is the motto
+                details.appendChild(year);
+                details.appendChild(population);
+                details.appendChild(annrain);
+                citycards.appendChild(details);
                 citycards.appendChild(eximage);
+                
 
                 //place in the 'card' the above information
                 document.querySelector('div.citycards').appendChild(citycards);

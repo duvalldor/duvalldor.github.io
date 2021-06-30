@@ -117,10 +117,10 @@ main div{
     padding: 0.5rem;
     
     }
-main div.section{
+/* main div.section{
     display: block;
     grid-template-columns: 1fr;
-}
+} */
 
 .citycards p{
     margin: 10px;

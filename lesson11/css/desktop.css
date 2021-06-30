@@ -22,12 +22,33 @@
     .logo{
         width: 10em;
     }
-    .citycards{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+    .citycards {
+        display:flex;
+       
     }
+    .citycards section{
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-basis: 500px;
+        min-width: 250px;
+    }
+    .citycards img{
+       
+        margin: 5px auto;
+        box-shadow: 0 0 15px #271F30;
+        max-width: 250px;
+        width: 85%;
+    }
+    /* .citycards img{
+        grid-column: 1;
+        grid-row: 1;
+    }.citycards details{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
     .sec-gallery{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-    }
+    } */
 }
