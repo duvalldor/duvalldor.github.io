@@ -39,7 +39,7 @@
         max-width: 250px;
         width: 85%;
     }
-    /* .citycards img{
+    .citycards img{
         grid-column: 1;
         grid-row: 1;
     }.citycards details{
@@ -50,5 +50,5 @@
     .sec-gallery{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-    } */
+    }
 }

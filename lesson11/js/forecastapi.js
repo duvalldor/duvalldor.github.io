@@ -1,6 +1,16 @@
  //Five day Forecast.
 //  const cityid = 5604473;
-// const APPID = "d68b260cc48f984ad54c1861be8879fb";
+//const APPID = "d68b260cc48f984ad54c1861be8879fb";
+var townName = document.getElementById('townname').textContent;
+console.log(townName);
+if (townName == "Fish Haven") {
+  cityid = 5585010;
+} else if (townName == "Soda Springs") {
+  cityid = 5607916;
+} else {
+  cityid = 5604473; // townName is Preston
+}
+console.log(cityid);
 
 const fapiURL = `https://api.openweathermap.org/data/2.5/forecast?id=${cityid}&appid=${APPID}&units=imperial`;
 const iconimageURL = "https://openweathermap.org/img/wn/";

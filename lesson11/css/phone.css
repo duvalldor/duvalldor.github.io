@@ -87,7 +87,7 @@ nav ul li a:hover{
     border-radius: 2px;
 }
 body {
-    background-color: white;
+    background-color: rgb(240, 236, 236);
     min-width: fit-content;
     font-family: "Nunito";
     font-size: 16px;
@@ -160,14 +160,14 @@ div article p{
     text-align: center;
 }
 .g-pic picture img{
-    width:395px;
+    width:245px;
     height: auto;
 }
 .g-pic{
-    margin: .5rem .5rem .5rem .25rem;
+    margin: 0 0 .5rem 0;
     padding:2rem;
     border: 5px double #6C5A49;
-    width:400px;
+    width:250px;
     height: auto;
     background-color: #7f669b;
     color: white;
@@ -225,8 +225,11 @@ p.text{
     border: ridge rgba(200,173,85,.5);
 }
 .article-img{
-    
     width: 95%;
+    box-shadow: 0 0 50px rgba(200,173,85,.5);
+}
+.article-imgfh{
+    width: 50%;
     box-shadow: 0 0 50px rgba(200,173,85,.5);
 }
 img.folsom, img.folsomlow{

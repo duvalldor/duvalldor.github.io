@@ -1,5 +1,15 @@
-const cityid = "5604473";
+// const cityid = "5604473";
 const APPID = "d68b260cc48f984ad54c1861be8879fb";
+var townName = document.getElementById('townname').textContent;
+console.log(townName);
+if (townName == "Fish Haven") {
+  cityid = 5585010;
+} else if (townName == "Soda Springs") {
+  cityid = 5607916;
+} else {
+  cityid = 5604473; // townName is Preston
+}
+console.log(cityid);
 
 //go to the api URL with specific information input into the URL 
 //const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=d68b260cc48f984ad54c1861be8879fb&units=imperial";
