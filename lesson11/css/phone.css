@@ -335,7 +335,7 @@ form label.logdata {
 /*main footer*/
 .flex-contact{
     margin: 0 auto;
-    max-width: 960;
+    max-width: 960px;
     padding-top: 10px;
     display: flex;
     flex-direction: row;
