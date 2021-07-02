@@ -121,20 +121,13 @@ main div{
     text-align: center;
     background-color: #9cbdf3;
     padding: 0.5rem;
-    
-    }
-/* main div.section{
-    display: block;
-    grid-template-columns: 1fr;
-} */
-
+}
 .citycards p{
     margin: 10px;
     line-height: 1em;
     text-align: center;
     font-family: "Nunito", sans-serif;
     padding: 5px;
-    
 }
 .citycards img{
     display: block;
@@ -149,15 +142,24 @@ div.article{
     grid-template-columns: 1fr;
     border: solid 3px rgba(200,173,85);
 }
+div 
 img.folsom, img.folsomlow{
     box-shadow: 0 0 15px #271F30;
     margin: 10px;
-}
-img.folsomlow{
+    border-radius: 10px;
+    max-width: 40%;
     float: right;
 }
+/* div img.folsom {
+    float: right;
+}
+div img.folsomlow {
+    float: left;
+} */
 div article p{
-    text-align: center;
+    text-align: justify;
+    padding: 4px;
+    margin: 0 4px 0 4px;
 }
 /*Main page (can use classes between pages if needed for the same effect)*/
 .townname, .forcast5name, .gallery{
@@ -209,13 +211,19 @@ p.text{
     text-align: left;
 }
  .p-one, .p-two, .p-three, .p-four{
-    margin: 5em;
+    margin: 2em;
     padding-left: 2em;
+}
+.center{
+    text-align: center;
 }
 .p-three{
     border: 5px ridge #6C5A49;
     border-radius: 4px;
     display: block;
+}
+.p-three h3{
+    padding: 6px;
 }
 .upcomingevents{
     background-color: #7eaf81;
@@ -244,6 +252,17 @@ p.text{
     display:block;
     width: 95%;
     box-shadow: 0 0 50px rgba(200,173,85,.5);
+}
+.article-button{
+    text-decoration: none;
+    background-color: #C8AD55;
+    border: 2px solid #6C5A49;
+    border-radius: 4px;
+    margin: 2px 2px 23px 2px;
+    width: 145px;
+    padding: 4px;
+
+
 }
 .article-imgfh{
     width: 50%;
@@ -340,7 +359,7 @@ footer{
     color:black; 
 }
 .secondary{
-    background-color: #C8AD55;
+    background-color: #C8AD55; (tan color)
 }
 .accent1{
     background-color: #6C5A49;
@@ -349,4 +368,5 @@ footer{
 .accent2{
     background-color: #271F30;
     color: white;
-}*/
+}
+#9cbdf3 is front blue*/
