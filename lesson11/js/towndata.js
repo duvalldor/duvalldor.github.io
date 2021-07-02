@@ -1,39 +1,7 @@
 //source of towndata in json
 const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
-//const townevents = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
-fetch(townevents)
-    .then(function (response) {
-        return response.json();
-    })
-    .then(function (jsonObject2) {
-        
-        console.log(jsonObject2);//temporarily check to make sure we see a response
-        //name the jsonObject
-        const event = jsonObject['events']
-        var townName = document.getElementById('townname').textContent;
-        console.log(townName);
-        
-        //works through each town in the array of towns
-       for (let i = 0; i < cities.length; i++) {
-        //filter to only include preston, soda springs and fish haven.
-       if (cities[i].name == "Fish Haven" || cities[i].name == "Preston" || cities[i].name == "Soda Springs") {
-        
-        if (townName == "Fish Haven") {
-        cityid = "fishevents";
-        } else if (townName == "Soda Springs") {
-        cityid = "sodaevents";
-        } else {
-        cityid = "prestonevents"; 
-        }
-        //works through each event in the town chosen 
-        for (let j = 0; j < cities.[i].events.length; j++){
-            e = document.createElement('div');
-            e.textContent = cities[i].events[j];
-            document.getElementById('upcomingcard').appendChild(e);
-    }                   
 
-    };
 
 fetch(requestURL)
     .then(function(response) {
@@ -59,9 +27,7 @@ fetch(requestURL)
                 let annrain = document.createElement('p');
                 let eximage = document.createElement('img');
                 let details = document.createElement('div');
-               
-
-
+       
                 //set up what will be going in each of the create elements
                 h2.textContent = cities[i].name;
                 h3.textContent = cities[i].motto;
@@ -72,7 +38,7 @@ fetch(requestURL)
                 eximage.setAttribute('src', "images/" + cities[i].photo);
                 eximage.setAttribute('alt', "picture of " + name.textContent);
         
-        
+     
                 //tell the card the order you want the information placed
                 details.appendChild(h2); //this is the city name
                 details.appendChild(h3);// this is the motto

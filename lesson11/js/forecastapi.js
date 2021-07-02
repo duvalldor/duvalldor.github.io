@@ -7,13 +7,14 @@ if (townName == "Fish Haven") {
   cityid = 5585010;
 } else if (townName == "Soda Springs") {
   cityid = 5607916;
-} else {
+} else if(townName == "Preston") {
   cityid = 5604473; // townName is Preston
 }
 console.log(cityid);
 
 const fapiURL = `https://api.openweathermap.org/data/2.5/forecast?id=${cityid}&appid=${APPID}&units=imperial`;
 const iconimageURL = "https://openweathermap.org/img/wn/";
+const townevents = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
  fetch(fapiURL)
    .then((response) => response.json())
@@ -40,3 +41,25 @@ const iconimageURL = "https://openweathermap.org/img/wn/";
       });
 
    });
+
+   fetch(townevents)
+       .then(function (response) {
+           return response.json();
+       })
+       .then(function (jsonObject) {
+           console.log(jsonObject);//temporarily check to make sure we see a response
+        
+           const towns = jsonObject['towns'];
+       for (let i = 0; i < towns.length; i++) {
+           if (towns[i].name == townName) {
+               
+               for(let j = 0; j < towns[i].events.length; j++){
+                   s = document.createElement('div')
+                   s.textContent = towns[i].events[j]
+                   document.getElementById('upcomingevents').appendChild(s)
+               }
+           }
+   
+       }
+   
+   })   

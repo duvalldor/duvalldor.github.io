@@ -16,6 +16,11 @@
     .logo{
         width: 128px;
     }
+    .article-img{
+        margin: 15px;
+        float: right; 
+        max-width: 300px;
+    }
     /*--homepage--*/
     /* .citycards section{
         display: grid;
