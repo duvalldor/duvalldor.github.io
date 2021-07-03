@@ -36,7 +36,6 @@ fetch(requestURL)
                 eximage.setAttribute('src', "images/" + cities[i].photo);
                 eximage.setAttribute('alt', "picture of around " + cities[i].textContent);
         
-     
                 //tell the card the order you want the information placed
                 details.appendChild(h2); //this is the city name
                 details.appendChild(h3);// this is the motto
@@ -45,8 +44,6 @@ fetch(requestURL)
                 details.appendChild(annrain);
                 citycards.appendChild(details);
                 citycards.appendChild(eximage);
-                
-
                 //place in the 'card' the above information
                 document.querySelector('div.citycards').appendChild(citycards);
             };
