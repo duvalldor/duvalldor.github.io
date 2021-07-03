@@ -313,11 +313,11 @@ form label.sbs{
 form textarea.text-area{
     margin: 0;
     border-color:rgba(50, 40, 61);
-    min-width: 1000px;
     font-size: 18px;
     border-radius: 10px;
     overflow: auto;
     word-wrap: normal;
+    
 
 }
 form input.submitBtn{
