@@ -72,7 +72,7 @@ nav ul li{
     padding: 1rem;
     
 }
-nav ul li a{
+nav ul li a, p a{
     padding: 1rem;
     color: darkblue;
     font-size: 1.25rem;
@@ -295,7 +295,7 @@ form label.top {
     padding: .5rem;
     font-size: 1rem;
 }
-input:focus{
+input:focus, textarea:focus{
     background: rgb(229, 154, 248);
 }
 form label.top input, form label.strm {
@@ -309,6 +309,16 @@ form label.top input, form label.strm {
 form label.sbs{
     display: block;
     padding: .75rem;
+}
+form textarea.text-area{
+    margin: 0;
+    border-color:rgba(50, 40, 61);
+    min-width: 1000px;
+    font-size: 18px;
+    border-radius: 10px;
+    overflow: auto;
+    word-wrap: normal;
+
 }
 form input.submitBtn{
     border: none;
