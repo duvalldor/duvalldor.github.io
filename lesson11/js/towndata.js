@@ -6,7 +6,6 @@ fetch(requestURL)
         return response.json();
     })
     .then(function(jsonObject) {
-        
         //console.tablel(jsonObject); //temporary checking for valid response and data parsing- 
         
         //name the jsonObject
