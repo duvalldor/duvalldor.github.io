@@ -34,7 +34,7 @@ fetch(requestURL)
                 annrain.textContent = "Annual Rainfall: " + cities[i].averageRainfall;
 
                 eximage.setAttribute('src', "images/" + cities[i].photo);
-                eximage.setAttribute('alt', "picture of around " + cities[i].textContent);
+                eximage.setAttribute('alt', "picture of around " + cities[i].name);
         
                 //tell the card the order you want the information placed
                 details.appendChild(h2); //this is the city name
