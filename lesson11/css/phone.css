@@ -82,7 +82,7 @@ nav ul li a, p a{
 nav ul  a.active{
     background-color: #9BC59D;
 }
-nav ul li a:hover{
+nav ul li a:hover, p a:hover, h5 a:hover{
     color: rgb(225, 105, 255);
 }
 .view {
