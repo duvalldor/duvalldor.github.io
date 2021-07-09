@@ -1,0 +1,60 @@
+{
+"businesses": [
+  {
+	"coname": "KC Martin Automotive",
+	"address": "21609 Hwy 99 STE A",
+	"phone": "425-672-0902",
+	"website": 
+	"membership": "no",
+	"ad": ,
+	},
+	{
+	"coname": "Factory Direct Tire Sales",
+	"address": "22617 76th Ave W",
+	"phone": "425-774-5131",
+	"website": "www.factorydirecttire.com",
+	"membership": "yes",
+	"ad": "yes",
+	},
+	{
+	"coname": "Aura Art & Ink",
+	"address": "18811 28th STE 118",
+	"phone": "425-743-4188",
+	"website": 
+	"membership": "no",
+	"ad": ,
+	},
+	{
+	"coname": "Inspirus Credit Union",
+	"address": "3405 188th St SW STE 201",
+	"phone": "888-628-4010",
+	"website": "www.inspiruscu.org",
+	"membership": "yes",
+	"ad": "no",
+	},
+	{
+	"coname": "My Salon Suite",
+	"address": "17214 Hwy 99",
+	"phone": "253-987-6556",
+	"website": "www.mysalonsuite.com",
+	"membership": "yes",
+	"ad":"no",
+	},
+	{
+	"coname": "Chick-fil-A",
+	"address": "3026 196th ST SW",
+	"phone": "425-673-7132",
+	"website": "www.chik-fil-a.com/lynnwood",
+	"membership": "yes",
+	"ad": "yes",
+	},
+	{
+	"coname": "AARD Pest Control",
+	"address": "6019 212th St SW",
+	"phone": "425-776-3662",
+	"website": "www.aardpestcontrol.com",
+	"membership": "yes",
+	"ad": "yes",
+	},
+  ]	
+}
