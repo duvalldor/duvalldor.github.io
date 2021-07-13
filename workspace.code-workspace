@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "css",
+			"path": "css"
+		},
+		{
+			"name": "duv-wdd230",
+			"path": "..\\..\\wdd230-06-july-work\\duv-wdd230"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "duv-wdd230",
+		"liveServer.settings.port": 5501
+	}
+}
