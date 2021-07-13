@@ -4,10 +4,13 @@
 /*----header-footer------*/
 .logo{
     float: left;
+    justify-content: center;
 }
 .center{
     text-align: center;
 }
+
+/*---body---*/
 body{
     background-color: aliceblue;
 }
