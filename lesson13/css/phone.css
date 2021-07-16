@@ -12,6 +12,12 @@ header, footer{
     padding:2%;
     text-align: center;
 }
+main.line-top{
+    border-top: 4px solid #DB7E21;
+}
+.footer-main{
+    border-top:4px solid #DB7E21;
+}
 body {
     margin: 10px;
     border: 5px solid #0356FC;
@@ -159,12 +165,68 @@ div.flex-col{
     font-weight: bold;
 }
 /*---Membership Benefits---*/
-.chamberbenefits {
-    
+.benefits {
+    margin:10px;
 }
 
 /*----Forms----*/
+form legend {
+    color:#251774;
+    margin:0 1rem;
+    padding: .5rem;
+}
+form label.top {
+    display: block;
+    padding: .5rem;
+    font-size: 1rem;
+}
+input:focus, textarea:focus{
+    background: rgb(229, 154, 248);
+}
+form label.top input, form label.city, form label.state {
+    display: block;
+    font-size: 1rem;
+    padding: .75rem;
+    color:#000;
+    width: 95%;
+    max-width: 100%;
+}
+form label.sbs{
+    display: block;
+    padding: .75rem;
+}
+form textarea.text-area{
+    margin: 0;
+    border-color:#8818D9;
+    font-size: 18px;
+    border-radius: 10px;
+    overflow: auto;
+    word-wrap: normal;
+    
 
+}
+form input.submitBtn{
+    border: none;
+    background-color: #8818D9;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: .5rem 0 1rem 2%;
+    width: 95%;
+    max-width: 20rem;
+    font-weight: bold;
+}
+form label.top input:required {
+    border-left: #DB7E21 solid 6px;
+}
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+form label.logdata {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 /*---colors for site---*/
 /*
