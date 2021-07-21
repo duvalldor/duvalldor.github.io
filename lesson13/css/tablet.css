@@ -14,11 +14,21 @@
         padding-left: 7em;
     }
     .logo{
-        width: 128px;
+        width: 175px;
     }
     .article-img{
         margin: 15px;
         float: right; 
         max-width: 300px;
+    }
+    .summary{
+        position: absolute; 
+        top:25px;
+        left: 25px;
+    }
+        /*---Forecast---*/
+    div.flex{ /*The three boxes*/
+        flex-direction: row;
+        max-width: none;
     }
 }

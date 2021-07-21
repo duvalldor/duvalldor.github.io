@@ -7,6 +7,6 @@ hambutton.addEventListener('click', () => {
 
 //To make sure the window doesn't get rid of the hamburger too early>
 window.onresize = () => {
-    if (window.innerWidth > 760)
+    if (window.innerWidth > 600)
         mainnav.classList.remove('responsive')
 };
