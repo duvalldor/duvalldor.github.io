@@ -4,10 +4,10 @@
 	"coname": "KC Martin Automotive",
 	"address": "21609 Hwy 99 STE A",
 	"phone": "425-672-0902",
-	"website":"no",
+	"website":"https://www.kcmartin.com/",
 	"membership": "no",
 	"ad": "no",
-	"image":"../images/kcautomotive.jpg"
+	"image":"images/kcautomotive.jpg"
 	},
 	{
 	"coname": "Factory Direct Tire Sales",
@@ -16,7 +16,7 @@
 	"website": "www.factorydirecttire.com",
 	"membership": "yes",
 	"ad": "yes",
-	"image":"../images/factorydirecttiresales2.jpg",
+	"image":"images/factorydirecttiresales2.jpg",
 	"website":"https://www.kcmartin.com/"
 	},
 	{
@@ -26,7 +26,7 @@
 	"website": "no",
 	"membership": "no",
 	"ad": "no",
-	"image":"../images/heart.jpg",
+	"image":"images/heart.jpg",
 	"website":"https://www.kcmartin.com/"
 	},
 	{
@@ -36,7 +36,7 @@
 	"website": "www.inspiruscu.org",
 	"membership": "yes",
 	"ad": "no",
-	"image":"../images/heart.jpg",
+	"image":"images/heart.jpg",
 	"website":"https://www.kcmartin.com/"
 	},
 	{
@@ -46,7 +46,7 @@
 	"website": "www.mysalonsuite.com",
 	"membership": "yes",
 	"ad":"no",
-	"image":"../images/heart.jpg",
+	"image":"images/heart.jpg",
 	"website":"https://www.kcmartin.com/"
 	},
 	{
@@ -56,7 +56,7 @@
 	"website": "www.chik-fil-a.com/lynnwood",
 	"membership": "yes",
 	"ad": "yes",
-	"image":"../images/heart.jpg",
+	"image":"images/heart.jpg",
 	"website":"https://www.kcmartin.com/"
 	},
 	{
@@ -66,7 +66,7 @@
 	"website": "www.aardpestcontrol.com",
 	"membership": "yes",
 	"ad": "yes",
-	"image":"../images/heart.jpg",
+	"image":"images/heart.jpg",
 	"website":"https://www.kcmartin.com/"
 	}
   ]	

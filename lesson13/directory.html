@@ -39,8 +39,13 @@
     <main>
       
         <section id="business">
-            <h2 id="townname" class="center">Chamber Directory</h2>
-            <div class="directory"></div>
+            <div style="display:flex; justify-content: space-evenly; align-items: center;">
+                <button onclick='document.getElementById("newdirectory").classList.remove("directorysingle")' >Grid</button>
+                <h2 id="townname" class="center" style="display:inline">Chamber Directory</h2> 
+                <button onclick='document.getElementById("newdirectory").classList.add("directorysingle")'>List</button>
+            </div>
+           
+            <div class="directory" id="newdirectory"></div>
         </section>
 
         </main>

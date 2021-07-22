@@ -14,22 +14,26 @@ fetch(directory)
             let address = document.createElement('p');
             let phone = document.createElement('p');
             let image = document.createElement('img');
+            let link = document.createElement('a');
     
 
             h3.textContent = entries[i].coname;
             address.textContent = 'Address: ' + entries[i].address;
             phone.textContent = 'Phone: ' + entries[i].phone;
             image.setAttribute('src', entries[i].image);
-            image.setAttribute('alt', entries[i].coname + ' picture.' );
+            image.setAttribute('alt', entries[i].coname + ' picture.');
+            link.setAttribute('href', entries[i].website);
+            link.setAttribute('target', '_blank');
             
             //tell the card the order you want the information placed
             entry.appendChild(h3);
             entry.appendChild(address);
             entry.appendChild(phone);
             entry.appendChild(image);
+            link.appendChild(entry);
     
     
-            document.querySelector('div.directory').appendChild(entry);
+            document.querySelector('div.directory').appendChild(link);
         }
     }
 );
