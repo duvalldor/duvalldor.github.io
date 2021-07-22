@@ -7,7 +7,7 @@
 	"website":"https://www.kcmartin.com/",
 	"membership": "no",
 	"ad": "no",
-	"image":"images/kcmauto.jpg"
+	"image":"images/kcautomotive.jpg"
 	},
 	{
 	"coname": "Factory Direct Tire Sales",
@@ -16,43 +16,48 @@
 	"website": "www.factorydirecttire.com",
 	"membership": "yes",
 	"ad": "yes",
-	"image":"images/fdtires.jpg"
+	"image":"images/factorydirecttiresales2.jpg",
+	"website":"https://www.kcmartin.com/"
 	},
 	{
 	"coname": "Aura Art & Ink",
 	"address": "18811 28th STE 118",
 	"phone": "425-743-4188",
-	"website": "https://www.auraartandink.com/",
+	"website": "no",
 	"membership": "no",
 	"ad": "no",
-	"image":"images/aura.jpg"
+	"image":"images/heart.jpg",
+	"website":"https://www.kcmartin.com/"
 	},
 	{
-	"coname": "Gesa Credit Union",
+	"coname": "Inspirus Credit Union",
 	"address": "3405 188th St SW STE 201",
 	"phone": "888-628-4010",
-	"website": "www.gesa.com",
+	"website": "www.inspiruscu.org",
 	"membership": "yes",
 	"ad": "no",
-	"image":"images/gesalogo.jpg"
+	"image":"images/heart.jpg",
+	"website":"https://www.kcmartin.com/"
 	},
 	{
 	"coname": "My Salon Suite",
 	"address": "17214 Hwy 99",
 	"phone": "253-987-6556",
-	"website": "www.mysalonsuite.com/lynnwood",
+	"website": "www.mysalonsuite.com",
 	"membership": "yes",
 	"ad":"no",
-	"image":"images/mysalonsuite.jpg"
+	"image":"images/heart.jpg",
+	"website":"https://www.kcmartin.com/"
 	},
 	{
 	"coname": "Chick-fil-A",
 	"address": "3026 196th ST SW",
 	"phone": "425-673-7132",
-	"website": "https://www.chick-fil-a.com/locations/wa/lynnwood",
+	"website": "www.chik-fil-a.com/lynnwood",
 	"membership": "yes",
 	"ad": "yes",
-	"image":"images/chicckfilalogo.jpg"	
+	"image":"images/heart.jpg",
+	"website":"https://www.kcmartin.com/"
 	},
 	{
 	"coname": "AARD Pest Control",
@@ -61,8 +66,8 @@
 	"website": "www.aardpestcontrol.com",
 	"membership": "yes",
 	"ad": "yes",
-	"image":"images/aardlogo.jpg"
+	"image":"images/heart.jpg",
+	"website":"https://www.kcmartin.com/"
 	}
   ]	
 }
-
