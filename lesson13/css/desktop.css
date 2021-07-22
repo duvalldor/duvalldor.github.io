@@ -22,7 +22,11 @@
     .logo{
         width: 200px;
     }
-     /*---directory--*/
+    /*---forecast---*/
+    div.flex {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    /*---directory--*/
      .directory{
         grid-template-columns: 1fr 1fr 1fr;
     

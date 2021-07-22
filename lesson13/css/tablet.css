@@ -28,7 +28,7 @@
     }
         /*---Forecast---*/
     div.flex{ /*The three boxes*/
-        flex-direction: row;
+        grid-template-columns: 1fr 1fr;
         max-width: none;
     }
     /*---directory--*/
