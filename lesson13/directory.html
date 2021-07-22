@@ -13,8 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Englebert&family=Lato&display=swap" rel="stylesheet"/>
-    <script defer src="js/weather.js"></script>
-    <script defer src="js/eventdata.js"></script>
+    <script defer src="js/directory.js"></script>
     <script defer src="js/onClick.js"></script>
 </head>
 <body>
@@ -41,9 +40,9 @@
         </ul>
     </nav>
     <main>
-        <h2 id="townname" class="center">Chamber Directory</h2>
+      
         <div class="sections">
-        <section class="lynnwood-home">
+        <section class="top">
             <div class=hero>
                 <img class="view" src="images/800px-LynnwoodWAwelcomesign.jpg" alt="Welcome to Lynnwood sign"/>
                   <div class="summary">
@@ -51,7 +50,10 @@
                   </div>
             </div>
         </section>
-
+        <section id="business">
+            <h2 id="townname" class="center">Chamber Directory</h2>
+            <div class="directory"></div>
+        </section>
 
         </main>
 

@@ -22,4 +22,9 @@
     .logo{
         width: 200px;
     }
+     /*---directory--*/
+     .directory{
+        grid-template-columns: 1fr 1fr 1fr;
+    
+    }
 }

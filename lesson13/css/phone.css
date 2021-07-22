@@ -5,6 +5,7 @@
 header{
     display: flex;
     justify-content: center;
+
 }
 header, footer{
     /* background: #AABD8C; */
@@ -117,8 +118,54 @@ nav ul li a:hover, p a:hover, h5 a:hover{
     border: 5px solid #DB7E21;
     border-radius: 2px;
 }
+/*---Changing Hero pictures */
+/* Image slider css here */
+#slider {
+    overflow: hidden;
+    max-width: 800px;
+}
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: auto;
+    left: auto;
+    animation: 25s slider infinite;
+}
+#slider figure img {
+    width: 20%;
+    float: left;
+    border: 5px solid #808080;
+}
+@keyframes slider {
+    0% {
+      left: 0;
+    }
+    15% {
+      left: 0;
+    }
+    25% {
+      left: -100%;
+    }
+    40% {
+      left: -100%;
+    }
+    50% {
+      left: -200%;
+    }
+    65% {
+      left: -200%;
+    }
+    70% {
+      left: -300%;
+    }
+    90% {
+      left: -300%;
+    }
+    100% {
+      left: -400%;
+    }
+  }  
 /*---Weather summary---*/
-
 .hero{
     position: relative;
 }
@@ -152,24 +199,28 @@ nav ul li a:hover, p a:hover, h5 a:hover{
     flex-direction:
     flex-wrap: wrap; 
  } */
-
-div.flex{ /*The three boxes*/
+ .flex {
+    display: grid;
+    grid-template-columns: 33%;
+    grid-template-rows: auto; 
+ } */
+/* div.flex{ /*The three boxes*/
     /* display: flex; */
-     flex-direction: row;
+    /* flex-direction: row;
     flex-wrap: wrap;
     max-width: 45%;
     max-height: 50%;
     
-    margin: auto;
-    /* flex-flow: row wrap; */
-}
+    margin: auto; */
+    /* flex-flow: row wrap; 
+} */
 div.flex-col{
     /* The pieces in each box*/
-    flex: 1;
-    flex-direction: column;
+    grid: 1;
+    /* flex-direction: column; */
     background-color: #F4F72A;
     font-weight: bold;
-    text-align: center;
+    align-items: center;
     border: ridge rgba(219, 126, 33,.5);
 }
 div.upcomingevents {
@@ -260,6 +311,30 @@ form label.logdata {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+/*---directory--*/
+.directory{
+   
+    align-content:center;
+    display: grid;
+   
+}
+section{
+    margin: .5rem;
+    padding: .5rem;
+    text-align: center;
+    background-color: #dbd8cb;
+    border: 2px solid #C8AD55;
+    box-shadow: 5px 10px 15px #6C5A49;
+  
+}
+img{
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+}
+
+
+
 
 /*---colors for site---*/
 /*
