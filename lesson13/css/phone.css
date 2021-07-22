@@ -30,6 +30,7 @@ body {
 }
 .center{
     text-align: center;
+    align-content: center;
 }
 .flex-contact{
     margin: 0 auto;
@@ -74,6 +75,10 @@ body {
 }
 .center{
     text-align: center;
+}
+.attributions{
+    margin: 20px;
+    padding: 20px;
 }
 /*Navigation info for page*/
 .navigation{
@@ -232,10 +237,26 @@ div.flex-col{
     grid-template-columns: 1fr;
     grid-template-rows: auto;
 }
-.ad1, .ad2, .ad3{
-    min-width: 50%;
+.ad1, .ad2 {
+    min-width: 100%;
+    justify-self: right;
 }
+.ad3 {
+    min-width: 50%;
+    justify-self: right;
+}
+#rcorners1{
+    border-radius: 125px;
+    background: #8818D9;
+    color:#ffffff;
+    width: 250px;
+    height: 120px;
+    padding:20px;
+    text-align: center;
+    vertical-align: middle;
 
+
+}
 /*---Events---*/
 div.right2 {
     float:right;

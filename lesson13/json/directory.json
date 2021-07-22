@@ -16,7 +16,8 @@
 	"website": "www.factorydirecttire.com",
 	"membership": "yes",
 	"ad": "yes",
-	"image":"../images/factorydirecttiresales2.jpg"
+	"image":"../images/factorydirecttiresales2.jpg",
+	"website":"https://www.kcmartin.com/"
 	},
 	{
 	"coname": "Aura Art & Ink",
@@ -25,7 +26,8 @@
 	"website": "no",
 	"membership": "no",
 	"ad": "no",
-	"image":"../images/heart.jpg"
+	"image":"../images/heart.jpg",
+	"website":"https://www.kcmartin.com/"
 	},
 	{
 	"coname": "Inspirus Credit Union",
@@ -34,7 +36,8 @@
 	"website": "www.inspiruscu.org",
 	"membership": "yes",
 	"ad": "no",
-	"image":"../images/heart.jpg"
+	"image":"../images/heart.jpg",
+	"website":"https://www.kcmartin.com/"
 	},
 	{
 	"coname": "My Salon Suite",
@@ -43,7 +46,8 @@
 	"website": "www.mysalonsuite.com",
 	"membership": "yes",
 	"ad":"no",
-	"image":"../images/heart.jpg"
+	"image":"../images/heart.jpg",
+	"website":"https://www.kcmartin.com/"
 	},
 	{
 	"coname": "Chick-fil-A",
@@ -52,7 +56,8 @@
 	"website": "www.chik-fil-a.com/lynnwood",
 	"membership": "yes",
 	"ad": "yes",
-	"image":"../images/heart.jpg"
+	"image":"../images/heart.jpg",
+	"website":"https://www.kcmartin.com/"
 	},
 	{
 	"coname": "AARD Pest Control",
@@ -61,7 +66,8 @@
 	"website": "www.aardpestcontrol.com",
 	"membership": "yes",
 	"ad": "yes",
-	"image":"../images/heart.jpg"
+	"image":"../images/heart.jpg",
+	"website":"https://www.kcmartin.com/"
 	}
   ]	
 }

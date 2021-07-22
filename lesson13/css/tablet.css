@@ -41,5 +41,16 @@
         height: auto;
         max-width: 250px;
     }
-
+    /*---ads--*/
+    .ads{
+        grid-template-columns: 1fr 1fr;
+    }
+    /* .ad1, .ad2 {
+        min-width: 100%;
+        justify-self: right;
+    } */
+    /* .ad3 {
+        min-width: 50%;
+        justify-self: right;
+    } */
 }
